@@ -11,7 +11,6 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import * as Sentry from '@sentry/react';
 import App from './App';
-import '@/services/init';
 // import '@/mock';
 
 // {/* https://docs.sentry.io/platforms/javascript/guides/react/components/errorboundary/ */}

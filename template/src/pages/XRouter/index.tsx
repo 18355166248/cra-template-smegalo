@@ -7,7 +7,7 @@ const XRouter: FC = () => {
   return (
     <Suspense fallback={<div></div>}>
       <Switch>
-        <Redirect exact from="/" to={routes[0].path} />
+        <Redirect exact from="/" to={routes[0]?.path || '/'} />
         {routes.map(route => (
           <Route
             exact
