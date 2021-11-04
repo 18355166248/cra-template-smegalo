@@ -1,3 +1,3 @@
 export interface CommonAxiosReponse {
-  demo: string
+  demo: string;
 }
